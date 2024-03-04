@@ -1,9 +1,16 @@
 # TODO
 
 ## Beginner
-1. [ ] Making the Zombie Factory
+1. [ ] Making the Zombie Factory (zombie_factory)
+    - Overview: build a "Zombie Factory" in which:
+        - there's a database of all existing zombies
+        - there's a function to create new zombies
+        - each zombie have a random and unique appearance
     - Contracts
+        - keywords: pragma, contract
     - State Variables and Integers
+        - concepts: State variables
+        - types: uint{8, 16, 32, 256}
     - Math Operations
     - Structs
     - Arrays
@@ -15,7 +22,7 @@
     - Putting it together
     - Events
     - Web3.js
-2. [ ] Zombies attack their victims
+2. [ ] Zombies attack their victims (zombie_attack)
     - Mappings and Addresses
     - `Msg.sender`
     - Require
@@ -29,7 +36,7 @@
     - Handling multiple return Values
     - Bonus: Kitty Genes
     - Wrapping it up
-3. [ ] Advanced Solidity Concepts
+3. [ ] Advanced Solidity Concepts (zombie_mods)
     - Immutability of Contracts
     - Ownable Contracts
     - onlyOwner Function Modifier
@@ -43,7 +50,7 @@
     - Storage is Expensive
     - For Loops
     - Wrapping it up
-4. [ ] Zombie Battle System
+4. [ ] Zombie Battle System (zombie_battle)
     - Payable
     - Withdraws
     - Zombie Battles
@@ -56,7 +63,7 @@
     - Zombie Victory
     - Zombie Loss
     - Wrapping it up
-5. [ ] ERC721 & Crypto-Collectibles
+5. [ ] ERC721 & Crypto-Collectibles (zombie_upgrade)
     - ERC721 Standard, Multiple Inheritance
     - balanceOf and ownerOf
     - Refactoring
