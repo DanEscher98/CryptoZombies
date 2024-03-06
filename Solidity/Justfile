@@ -1,0 +1,16 @@
+set dotenv-load := true
+
+RPC_URL     := env_var('ANVIL_RPC_URL')
+PRIVATE_KEY := env_var('ANVIL_PRIVATE_KEY')
+ETHSCAN_API := env_var('ETHERSCAN_API')
+
+deploy CONTRACT:
+  @forge create \
+    --rpc-url {{RPC_URL}} --private-key {{PRIVATE_KEY}} \
+    --etherscan-api-key {{ETHSCAN_API}} --verify \
+    src/{{CONTRACT}}.sol:{{CONTRACT}}
+
+anvil CONTRACT:
+  @forge create \
+    --rpc-url {{RPC_URL}} --private-key {{PRIVATE_KEY}} \
+    src/{{CONTRACT}}.sol:{{CONTRACT}}

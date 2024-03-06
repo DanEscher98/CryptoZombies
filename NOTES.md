@@ -64,3 +64,5 @@ target
 2. Get a wallet: `dfx wallet`
 3. Testnet funds: https://faucet.dfinity.org
 4. Endpoint to deploy: `dfx deploy zombie --playground`
+
+## Cairo/StarkNet
