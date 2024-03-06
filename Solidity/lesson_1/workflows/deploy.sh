@@ -27,6 +27,6 @@ get_cryptokitties
 CONTRACT=`deploy "src/CryptoKitties.sol" "KittyCore" "0"`
 echo -e "CONTRACT:\t$CONTRACT"
 
-CONTRACT=`deploy "src/ZombieFactoryB.sol" "ZombieFeeding" "$CONTRACT"`
+CONTRACT=`deploy "src/ZombieFactoryB.sol" "ZombieHelper" "$CONTRACT"`
 echo -e "CONTRACT:\t$CONTRACT"
 
