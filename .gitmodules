@@ -7,3 +7,6 @@
 [submodule "Solidity/lesson_1/lib/openzeppelin-contracts"]
 	path = Solidity/lesson_1/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "Solidity/zombie_beginner/lib/forge-std"]
+	path = Solidity/zombie_beginner/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
